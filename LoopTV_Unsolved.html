@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Favorite TV Shows</title>
+</head>
+<body>
+<script type="text/javascript">
+
+// created empy array and variable tvShow
+var favTVshows = [];
+var tvShow;
+
+// For Loop Elements Repeats 3 Times
+for (var i=1; i<4; i++){
+
+	// #1, 2, and 3 favorite tv show
+	tvShow = prompt('What\'s your #' + i + ' favorite tv show?');
+
+	// pushes the user input into favTVshows
+	favTVshows.push(tvShow)
+}
+
+// loops through favTVshows array
+for(var i=0; i < favTVshows.length; i++){
+
+	// alerts each value in the index
+	alert(favTVshows[i]);
+}
+
+</script>
+</body>
+</html>
